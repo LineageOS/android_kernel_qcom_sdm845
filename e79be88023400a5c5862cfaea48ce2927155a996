@@ -16,6 +16,23 @@
       "message": "This breaks boot on mi845. No time to debug at the moment:\n\n\u003e  05-02 11:19:39.621  2123  2123 W ServiceManager: Service media.audio_policy didn\u0027t start. Returning NULL\n\u003e  05-02 11:19:39.621  2123  2123 W AudioSystem: AudioPolicyService not published, waiting...\n\u003e  05-02 11:19:40.122  2123  2123 I ServiceManager: Waiting for service \u0027media.audio_policy\u0027 on \u0027/dev/binder\u0027...",
       "revId": "e79be88023400a5c5862cfaea48ce2927155a996",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bcd78259_af51d184",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 5911
+      },
+      "writtenOn": "2023-05-02T11:02:06Z",
+      "side": 1,
+      "message": "same on op8998",
+      "revId": "e79be88023400a5c5862cfaea48ce2927155a996",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
