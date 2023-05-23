@@ -434,6 +434,8 @@ irqreturn_t smblib_handle_high_duty_cycle(int irq, void *data);
 irqreturn_t smblib_handle_switcher_power_ok(int irq, void *data);
 irqreturn_t smblib_handle_wdog_bark(int irq, void *data);
 
+int smblib_get_prop_charging_enabled(struct smb_charger *chg,
+				union power_supply_propval *val);
 int smblib_get_prop_input_suspend(struct smb_charger *chg,
 				union power_supply_propval *val);
 int smblib_get_prop_batt_present(struct smb_charger *chg,
@@ -454,6 +456,8 @@ int smblib_get_prop_system_temp_level_max(struct smb_charger *chg,
 				union power_supply_propval *val);
 int smblib_get_prop_input_current_limited(struct smb_charger *chg,
 				union power_supply_propval *val);
+int smblib_set_prop_charging_enabled(struct smb_charger *chg,
+				const union power_supply_propval *val);
 int smblib_set_prop_input_suspend(struct smb_charger *chg,
 				const union power_supply_propval *val);
 int smblib_set_prop_batt_capacity(struct smb_charger *chg,

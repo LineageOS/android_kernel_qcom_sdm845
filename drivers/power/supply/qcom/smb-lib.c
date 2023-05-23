@@ -1760,6 +1760,14 @@ int smblib_vbus_regulator_is_enabled(struct regulator_dev *rdev)
  * BATT PSY GETTERS *
  ********************/
 
+int smblib_get_prop_charging_enabled(struct smb_charger *chg,
+				     union power_supply_propval *val)
+{
+	val->intval
+		= get_client_vote(chg->chg_disable_votable, USER_VOTER) == 0;
+	return 0;
+}
+
 int smblib_get_prop_input_suspend(struct smb_charger *chg,
 				  union power_supply_propval *val)
 {
@@ -2071,6 +2079,21 @@ int smblib_get_prop_from_bms(struct smb_charger *chg,
 /***********************
  * BATTERY PSY SETTERS *
  ***********************/
+
+int smblib_set_prop_charging_enabled(struct smb_charger *chg,
+				     const union power_supply_propval *val)
+{
+	int rc;
+
+	rc = vote(chg->chg_disable_votable, USER_VOTER, !(bool)val->intval, 0);
+	if (rc < 0) {
+		smblib_err(chg, "Couldn't vote to %s charging rc=%d\n",
+			(bool)val->intval ? "enable" : "disable", rc);
+		return rc;
+	}
+
+	return rc;
+}
 
 int smblib_set_prop_input_suspend(struct smb_charger *chg,
 				  const union power_supply_propval *val)
