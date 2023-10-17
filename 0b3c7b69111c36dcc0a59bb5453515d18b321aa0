@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "96c4b588_87f63a9e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19282
+      },
+      "writtenOn": "2023-10-17T20:59:26Z",
+      "side": 1,
+      "message": "`[ 1434.415164] Trying to create more than 6 SchedTune boosting groups` when init tries to setup nnapi (`mkdir /dev/stune/nnapi-hal`).",
+      "revId": "0b3c7b69111c36dcc0a59bb5453515d18b321aa0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
