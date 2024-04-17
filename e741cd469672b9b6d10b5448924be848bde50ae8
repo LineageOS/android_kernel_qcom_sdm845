@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b1e8abdc_1d512ed4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2024-04-17T18:13:05Z",
+      "side": 1,
+      "message": "Does this fix an actual issue? From what I can tell it\u0027s intentional, since some devices might not require a gpio setup, which after this change would break",
+      "revId": "e741cd469672b9b6d10b5448924be848bde50ae8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
