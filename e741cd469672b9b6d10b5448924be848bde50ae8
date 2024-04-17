@@ -16,6 +16,24 @@
       "message": "Does this fix an actual issue? From what I can tell it\u0027s intentional, since some devices might not require a gpio setup, which after this change would break",
       "revId": "e741cd469672b9b6d10b5448924be848bde50ae8",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b70a2fcf_1d8a49c1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 31496
+      },
+      "writtenOn": "2024-04-17T23:20:52Z",
+      "side": 1,
+      "message": "It was seen during LGE SDM845 kernel bringup; I noticed this was causing the kernel to crash as LG added code to create a sysfs if the return code is 0, which led the device create function to run multiple times over the same path and proceed to null deref.\n\nI don\u0027t really have any explanation for this crash... it crashed right after \"No GPIO found\" log, and this is the only case where the rc would be both 0 AND have no actual data worth parsing. It probably is me not reading this code correctly, but I still think it\u0027s rather odd that this isn\u0027t an error; is there some example of a device where it would actually warrant a 0 return?",
+      "parentUuid": "b1e8abdc_1d512ed4",
+      "revId": "e741cd469672b9b6d10b5448924be848bde50ae8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
