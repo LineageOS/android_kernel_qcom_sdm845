@@ -56,8 +56,7 @@ int32_t cam_actuator_parse_dt(struct cam_actuator_ctrl_t *a_ctrl,
 
 	if (!soc_info->gpio_data) {
 		CAM_INFO(CAM_ACTUATOR, "No GPIO found");
-		rc = 0;
-		return rc;
+		return -EINVAL;
 	}
 
 	if (!soc_info->gpio_data->cam_gpio_common_tbl_size) {

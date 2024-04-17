@@ -50,7 +50,7 @@ static int cam_ois_get_dt_data(struct cam_ois_ctrl_t *o_ctrl)
 
 	if (!soc_info->gpio_data) {
 		CAM_INFO(CAM_OIS, "No GPIO found");
-		return 0;
+		return -EINVAL;
 	}
 
 	if (!soc_info->gpio_data->cam_gpio_common_tbl_size) {

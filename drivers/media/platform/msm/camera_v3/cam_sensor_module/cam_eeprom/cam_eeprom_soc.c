@@ -224,7 +224,7 @@ static int cam_eeprom_get_dt_data(struct cam_eeprom_ctrl_t *e_ctrl)
 
 	if (!soc_info->gpio_data) {
 		CAM_INFO(CAM_EEPROM, "No GPIO found");
-		return 0;
+		return -EINVAL;
 	}
 
 	if (!soc_info->gpio_data->cam_gpio_common_tbl_size) {
