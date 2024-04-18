@@ -34,6 +34,24 @@
       "parentUuid": "b1e8abdc_1d512ed4",
       "revId": "e741cd469672b9b6d10b5448924be848bde50ae8",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cc2aeb22_12c564c9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 31496
+      },
+      "writtenOn": "2024-04-18T02:18:45Z",
+      "side": 1,
+      "message": "I stared at this code a bit more, and I think I\u0027m on board with you that this isn\u0027t the right solution. I\u0027ll attempt to fix it LGE-side.",
+      "parentUuid": "b70a2fcf_1d8a49c1",
+      "revId": "e741cd469672b9b6d10b5448924be848bde50ae8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
