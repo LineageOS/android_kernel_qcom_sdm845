@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c2270839_7a7e3036",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 29551
+      },
+      "writtenOn": "2024-09-04T13:25:51Z",
+      "side": 1,
+      "message": "Complete self-test: Use \"f2fs_io shutdown 4 /data\" to simulate the need_fsck scenario and then test OTA and DSU",
+      "revId": "947888225c8623ce290ca231a1deb8614a1cd48b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
