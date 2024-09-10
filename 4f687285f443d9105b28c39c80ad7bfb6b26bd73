@@ -33,6 +33,24 @@
       "message": "device/shift/axolotl/BoardConfig.mk\n69:BOARD_KERNEL_CMDLINE +\u003d androidboot.memcg\u003d1 cgroup.memory\u003dnokmem",
       "revId": "4f687285f443d9105b28c39c80ad7bfb6b26bd73",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ec8aee30_9776fe45",
+        "filename": "arch/arm64/boot/dts/qcom/sdm845.dtsi",
+        "patchSetId": 1
+      },
+      "lineNbr": 483,
+      "author": {
+        "id": 19282
+      },
+      "writtenOn": "2024-09-10T10:12:47Z",
+      "side": 1,
+      "message": "As reference: https://review.lineageos.org/c/LineageOS/android_device_shift_axolotl/+/402215",
+      "parentUuid": "db7bfc5b_6e604f5e",
+      "revId": "4f687285f443d9105b28c39c80ad7bfb6b26bd73",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
