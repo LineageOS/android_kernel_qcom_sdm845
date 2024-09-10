@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "550dbcb3_f60072c8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2024-09-10T08:47:25Z",
+      "side": 1,
+      "message": "This should also be applied to sdm670",
+      "revId": "4f687285f443d9105b28c39c80ad7bfb6b26bd73",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "db7bfc5b_6e604f5e",
+        "filename": "arch/arm64/boot/dts/qcom/sdm845.dtsi",
+        "patchSetId": 1
+      },
+      "lineNbr": 483,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2024-09-10T08:47:25Z",
+      "side": 1,
+      "message": "device/shift/axolotl/BoardConfig.mk\n69:BOARD_KERNEL_CMDLINE +\u003d androidboot.memcg\u003d1 cgroup.memory\u003dnokmem",
+      "revId": "4f687285f443d9105b28c39c80ad7bfb6b26bd73",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
