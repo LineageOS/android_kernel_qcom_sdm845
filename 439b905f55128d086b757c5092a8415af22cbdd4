@@ -16,6 +16,23 @@
       "message": "Fixes the issue for all msm-4.9 devices I have (msm8937, sdm439, sdm710)",
       "revId": "439b905f55128d086b757c5092a8415af22cbdd4",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c4b3aad1_25dbae4b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2024-09-22T01:16:45Z",
+      "side": 1,
+      "message": "Fine on aura at least.",
+      "revId": "439b905f55128d086b757c5092a8415af22cbdd4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
