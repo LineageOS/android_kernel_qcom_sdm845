@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d116c5a1_0358f528",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2024-10-08T11:10:34Z",
+      "side": 1,
+      "message": "i can\u0027t reproduce build errors for this anymore, so we\u0027d better drop it.",
+      "revId": "7a3359f270329ff3a85f67cb48886d04d103c5a5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
